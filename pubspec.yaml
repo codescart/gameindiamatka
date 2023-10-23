@@ -1,0 +1,45 @@
+name: gameindiamatka
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.5.3+2
+  google_fonts: ^3.0.1
+  pin_code_fields: ^7.4.0
+  dotted_border: ^2.0.0+2
+  url_launcher: ^6.1.5
+  curved_navigation_bar: ^1.0.3
+  fluttertoast: ^8.0.9
+  sliding_switch: any
+  shared_preferences: ^2.0.15
+  image_picker: any
+  flutter_tawk:
+  flutter_share: ^2.0.0
+  textfield_tags: ^2.0.1
+  upi_india: ^3.0.1
+  pinput: ^2.2.12
+  sms_otp_auto_verify: ^2.1.0
+  new_version: ^0.3.1
+  carousel_slider: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
